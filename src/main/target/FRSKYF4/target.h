@@ -97,6 +97,12 @@
 #define CURRENT_METER_ADC_CHANNEL       ADC_CHN_1
 #define VBAT_ADC_CHANNEL                ADC_CHN_2
 
+#define USE_LED_STRIP
+#define WS2811_PIN                      PB6
+#define WS2811_DMA_STREAM               DMA1_Stream0
+#define WS2811_DMA_CHANNEL              DMA_Channel_2
+#define WS2811_DMA_HANDLER_IDENTIFER    DMA1_ST0_HANDLER
+
 #undef USE_RX_PWM
 #undef USE_RX_PPM
 
